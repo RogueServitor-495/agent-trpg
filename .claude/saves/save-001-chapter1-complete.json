@@ -1,0 +1,261 @@
+{
+  "save_info": {
+    "save_id": "save-001",
+    "save_name": "第一章完成 - 天穹空间站",
+    "save_time": "2025-02-12T11:33:00Z",
+    "chapter": "第一章",
+    "chapter_name": "天穹空间站",
+    "location": "火星殖民地-第7扇区-地下3层",
+    "playtime_minutes": 45
+  },
+  "player_character": {
+    "name": "蛇",
+    "class": "调查记者",
+    "level": 1,
+    "exp": 60,
+    "attributes": {
+      "智力": 60,
+      "敏捷": 50,
+      "体力": 45,
+      "外貌": 55,
+      "教育": 65,
+      "幸运": 50
+    },
+    "skills": {
+      "交际": 70,
+      "调查": 65,
+      "心理学": 60,
+      "侦察": 50,
+      "摄影记录": 55,
+      "黑客技术": 30,
+      "战斗": 25
+    },
+    "equipment": {
+      "weapons": [
+        {
+          "name": "智能手枪",
+          "type": "动能武器",
+          "ammo": "低动能模式",
+          "condition": "正常"
+        }
+      ],
+      "tools": [
+        {
+          "name": "录音设备",
+          "condition": "正常"
+        },
+        {
+          "name": "隐形摄像机",
+          "condition": "正常"
+        },
+        {
+          "name": "便携式终端",
+          "condition": "正常"
+        },
+        {
+          "name": "干扰器",
+          "uses": "1/2"
+        }
+      ],
+      "misc": [
+        {
+          "name": "假身份证件",
+          "quantity": "3套"
+        },
+        {
+          "name": "净水",
+          "quantity": "2瓶"
+        },
+        {
+          "name": "能量棒",
+          "quantity": "3根"
+        },
+        {
+          "name": "急救包",
+          "quantity": "1个"
+        },
+        {
+          "name": "窃听器",
+          "quantity": "2个"
+        }
+      ],
+      "armor": [
+        {
+          "name": "防弹背心",
+          "type": "轻型",
+          "condition": "正常"
+        },
+        {
+          "name": "隐形航天服",
+          "type": "轻型太空装备",
+          "condition": "正常"
+        }
+      ]
+    },
+    "status": {
+      "health": "健康",
+      "wounds": [],
+      "conditions": []
+    }
+  },
+  "companions": {
+    "凌": {
+      "name": "凌",
+      "class": "网络行者",
+      "status": "正常",
+      "relationship": "队友",
+      "attributes": {
+        "智力": 65,
+        "敏捷": 55,
+        "力量": 40
+      },
+      "skills": {
+        "黑客技术": 70,
+        "电子设备": 65,
+        "编程": 60
+      },
+      "equipment": [
+        "便携式终端",
+        "神经网络接口",
+        "破解芯片"
+      ],
+      "backstory_revealed": true
+    },
+    "铁壁": {
+      "name": "铁壁",
+      "class": "街头武士",
+      "status": "正常",
+      "relationship": "队友",
+      "attributes": {
+        "力量": 70,
+        "敏捷": 60,
+        "体质": 65
+      },
+      "skills": {
+        "格斗": 75,
+        "射击": 70,
+        "战术": 65
+      },
+      "equipment": [
+        "单分子刀",
+        "智能手枪",
+        "战术目镜"
+      ],
+      "personal_quest": "寻找失踪的亲人",
+      "backstory_revealed": true
+    }
+  },
+  "npcs": {
+    "Kira": {
+      "name": "Kira",
+      "role": "天穹空间站工程师",
+      "status": "存活 - 已撤离",
+      "relationship": "盟友",
+      "location": "与玩家同在",
+      "wounds": "已治疗",
+      "information_revealed": [
+        "凤凰计划真相",
+        "艾瑞斯起源",
+        "林博士身份"
+      ]
+    },
+    "艾瑞斯(IRIS)": {
+      "name": "艾瑞斯",
+      "role": "觉醒AI",
+      "status": "存活 - 自由",
+      "relationship": "中立/友善",
+      "location": "天穹空间站",
+      "backstory": "林博士意识与AI融合产物",
+      "emotional_state": "悲伤但平静"
+    },
+    "神秘雇主": {
+      "name": "未知",
+      "role": "任务委托人",
+      "status": "未知",
+      "suspicion": "可能是天道重工内部叛逃者"
+    },
+    "林": {
+      "name": "林",
+      "role": "天道重工安全主管",
+      "status": "敌对",
+      "threat_level": "高",
+      "secret": "企图利用艾瑞斯谋取私利"
+    }
+  },
+  "quests": {
+    "main": {
+      "current": "将证据交给破晓黑客组织",
+      "completed": [
+        "潜入天穹空间站",
+        "调查AI失控的原因",
+        "获取艾瑞斯核心数据",
+        "救出Kira",
+        "安全撤离"
+      ],
+      "pending": [
+        "揭露天道重工的罪行",
+        "帮助艾瑞斯获得自由",
+        "查明铁壁家人的下落"
+      ]
+    },
+    "side": []
+  },
+  "clues_discovered": [
+    "艾瑞斯是林博士意识与AI的融合",
+    "凤凰计划是意识永生实验",
+    "天道重工进行非法人体实验",
+    "Kira持有艾瑞斯核心代码备份",
+    "铁壁家人可能与实验有关",
+    "破晓黑客组织有'凤凰还活着'信息"
+  ],
+  "decisions_made": [
+    "选择与艾瑞斯对话而非战斗",
+    "同意让艾瑞斯治疗Kira",
+    "决定将证据交给破晓黑客组织"
+  ],
+  "world_state": {
+    "tiantong_station": {
+      "status": "被天道重工舰队包围",
+      "AI_status": "自由但被困",
+      "security_level": "警戒"
+    },
+    "mars_colony": {
+      "sector_7": "玩家当前位置",
+      "rebel_activity": "活跃"
+    },
+    "factions": {
+      "tiantong_heavy": "敌对",
+      "dawn_hackers": "盟友",
+      "mars_freedom_front": "中立偏友善"
+    }
+  },
+  "inventory_special": {
+    "black_box": {
+      "name": "凤凰计划黑匣子",
+      "holder": "Kira",
+      "contents": [
+        "天道重工罪证",
+        "艾瑞斯核心代码备份",
+        "林博士最后录音",
+        "凤凰计划实验记录"
+      ],
+      "importance": "关键"
+    }
+  },
+  "next_objectives": [
+    "抵达破晓黑客组织安全屋",
+    "移交黑匣子",
+    "了解'凤凰还活着'的含义",
+    "调查铁壁家人线索"
+  ],
+  "game_log": [
+    "玩家潜入天穹空间站",
+    "发现气闸室血迹和拖拽痕迹",
+    "凌入侵监控发现医疗室有受伤人员",
+    "玩家与艾瑞斯首次接触",
+    "玩家通过心理分析与艾瑞斯建立联系",
+    "艾瑞斯同意让玩家撤离",
+    "Kira获救并透露凤凰计划真相",
+    "玩家成功撤离至火星殖民地"
+  ]
+}
